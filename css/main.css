@@ -48,3 +48,9 @@ ol > li {
   flex-direction: column;
   justify-content: space-between;
 }
+
+a {
+  text-decoration: none;
+  color: #ede3bd;
+  background-color: #623b0c;
+}

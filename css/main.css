@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+img {
+
+}
+
 ol {
   list-style: none;
   padding: 0;
@@ -17,17 +21,19 @@ ol {
   gap: 1rem;
 }
 
- h1 {
-   font-family: "Denk One", sans-serif;
-   color: #623b0c;
- }
-
-ol li h2 {
-   font-family: "Denk One", sans-serif;
-   color: #623b0c;
+h1 {
+  font-family: "Denk One", sans-serif;
+  color: #623b0c;
+  background-color: #f5f2f0;
 }
 
- ol > li {
+ol li h2 {
+  font-family: "Denk One", sans-serif;
+  color: #623b0c;
+}
+
+ol > li {
+  background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
   padding: 1rem;
@@ -35,4 +41,4 @@ ol li h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: left;
+}

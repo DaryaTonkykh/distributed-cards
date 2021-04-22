@@ -53,4 +53,6 @@ a {
   text-decoration: none;
   color: #ede3bd;
   background-color: #623b0c;
+  border-radius: 8px;
+  padding: .5em 1rem .5em;
 }

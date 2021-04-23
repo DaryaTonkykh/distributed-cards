@@ -8,52 +8,69 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 img {
   width: 100%;
 }
 
-body {
-  background-color: #f5f2f0;
-  margin: 0;
-}
-
-ol {
-  margin-left: 1rem;
-  list-style: none;
-  padding: 0;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+h1,
+h2 {
+  font-family: "Denk One", sans-serif;
+  color: #623b0c;
 }
 
 h1 {
-  font-family: "Denk One", sans-serif;
-  color: #623b0c;
+  margin: 0 0 1.5rem;
+}
+
+h2 {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 1rem;
   background-color: #f5f2f0;
 }
 
-ol li h2 {
-  font-family: "Denk One", sans-serif;
-  color: #623b0c;
+ol {
+  margin: 0;
   padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
 }
 
-ol > li {
-  background-color: #ede3bd;
+ol li {
+  padding: 1rem;
+  background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
-  padding: 1rem;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-a {
-  text-decoration: none;
-  color: #ede3bd;
+li p {
+  margin: 1.5rem 0 auto;
+}
+
+li a {
+  margin-top: 1.5rem;
+  padding: .5em .75em .6em;
   background-color: #623b0c;
+  color: #f5f2f0;
+  text-decoration: none;
   border-radius: 8px;
-  padding: .5em .6em;
+}
+
+li a:hover,
+li a:focus {
+  background-color: #000;
+  color: #fff;
 }
